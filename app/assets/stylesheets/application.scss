@@ -1,0 +1,54 @@
+@import "fonts/fonts.scss";
+@import "variables.scss";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.masthead{
+	background: url("./chicasecador.jpg") no-repeat center;
+	background-size: cover;
+	height:500px;
+	padding:10em 0px 0px 0px;
+}
+
+.masthead *{
+	color:white;
+	
+	.slogan{
+		text-transform: uppercase;
+		font-size: floor(($font-size-base * 4)); 
+	}
+
+	.claim{
+		font-size: floor(($font-size-base * 1.4)); 
+	}
+
+	.question{
+		font-size: floor(($font-size-base * 1.7));
+		font-family: 'aileronbold';
+		margin-top: 1.5em;
+	}
+}
+
+
+.form-control{
+	color: $brand-primary;
+}
+
+.select-city{
+	width: 300px;
+	margin:auto;
+}
+
+.discovery-card{
+	height:300px;
+	background-size:cover;
+	margin: 20px;
+}
